@@ -1,4 +1,4 @@
-package learning.super_and_this;
+package learning.core_concepts.regex.super_and_this;
 
 public class SuperClass {
     public String name;

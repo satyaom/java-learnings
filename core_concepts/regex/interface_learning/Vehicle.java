@@ -1,7 +1,6 @@
-package learning.interface_learning;
+package learning.core_concepts.regex.interface_learning;
 
 public interface Vehicle {
-
     // Variable only can be public static final
     int t = 3;
 
