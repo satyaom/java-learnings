@@ -1,10 +1,12 @@
 package learning;
 
-import learning.core_concepts.regex.interface_learning.Car;
-import learning.core_concepts.regex.interface_learning.Vehicle;
-import learning.core_concepts.regex.static_and_final_with_inheritance.Parent;
-import learning.core_concepts.regex.super_and_this.ChildClass;
-import learning.core_concepts.regex.static_and_final_with_inheritance.Child;
+import learning.core_concepts.generics.Generics;
+import learning.core_concepts.interface_learning.Car;
+import learning.core_concepts.interface_learning.Vehicle;
+import learning.core_concepts.static_and_final_with_inheritance.Parent;
+import learning.core_concepts.streamapi.StreamApi;
+import learning.core_concepts.super_and_this.ChildClass;
+import learning.core_concepts.static_and_final_with_inheritance.Child;
 import learning.lld.observer_pattern.observable.IphoneObservableImpl;
 import learning.lld.observer_pattern.observable.StockObservable;
 import learning.lld.observer_pattern.observer.EmailAlertObserver;
@@ -17,12 +19,26 @@ import static learning.core_concepts.regex.RegexMatcher.wrapLink;
 
 class Test {
   public static void main(String[] args) {
+//    streamApi();
 //    lldObserverPattern();
 //    lldStrategyPattern();
 //    regex();
 //    interface_learning();
 //    static_and_final_with_inheritance();
 //    super_and_this();
+//    testGeneric();
+  }
+
+
+  static void streamApi() {
+    StreamApi.api();
+  }
+
+  static void testGeneric() {
+    Generics<Integer> gt = new Generics<>(23423);
+    System.out.println(gt.getObj());
+
+    gt.printObj(324);
   }
 
   static void lldObserverPattern() {

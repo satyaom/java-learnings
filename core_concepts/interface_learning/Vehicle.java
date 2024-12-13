@@ -1,7 +1,7 @@
-package learning.core_concepts.regex.interface_learning;
+package learning.core_concepts.interface_learning;
 
 public interface Vehicle {
-    // Variable only can be public static final
+    // Variable only can be public static final by default, can be private
     int t = 3;
 
     // Introduced in java 9, can be static

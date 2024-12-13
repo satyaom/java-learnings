@@ -1,4 +1,4 @@
-package learning.core_concepts.regex.static_and_final_with_inheritance;
+package learning.core_concepts.static_and_final_with_inheritance;
 
 public class Child extends Parent {
 

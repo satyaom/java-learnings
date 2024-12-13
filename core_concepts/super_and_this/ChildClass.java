@@ -1,4 +1,4 @@
-package learning.core_concepts.regex.super_and_this;
+package learning.core_concepts.super_and_this;
 public class ChildClass extends SuperClass{
     public String name;
     public Integer age;
